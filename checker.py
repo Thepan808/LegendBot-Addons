@@ -465,3 +465,5 @@ CmdHelp("checker").add_command(
 ).add_command(
    'otaup', None, 'Use And See'
 ).add() 
+"""check androidVersion modelNumber
+By :- Jaskaran ^_^ """
