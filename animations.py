@@ -967,4 +967,10 @@ CmdHelp("animation").add_command(
   'oss', None, 'Use And See'
 ).add_type(
   "Official"
+).add_info(
+       "Its Very Useful Module too much just use these u must(might) have fun"
+).add_warning(
+       "Harmless Module✅"
+).add_type(
+       "Addons"
 ).add()
