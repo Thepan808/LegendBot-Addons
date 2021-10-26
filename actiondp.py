@@ -107,6 +107,10 @@ async def autopic(event):
             return
 CmdHelp("actiondp").add_command(
        "actiondp", None, "Starts autodp of Action Hero & Some Actress Pic"
+).add_info(
+       "Its Very Useful Module Its Start Auto Dp"
+).add_warning(
+       "Harmless Module✅"
 ).add_type(
        "Addons"
 ).add()
