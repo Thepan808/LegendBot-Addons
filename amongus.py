@@ -145,3 +145,10 @@ CmdHelp("amongus").add_command(
 ).add_command(
   'timpn', 'name/username', 'Finds imposter without sticker(Text Only). Imposter - False'
 ).add()
+).add_info(
+       "This plugin comes under the fun section because its have funny commands that u can show it to ur friends and have fun"
+).add_warning(
+    "Harmless Module✅"
+).add_type(
+       "Addons"
+).add()
