@@ -1,7 +1,5 @@
-
-
 from userbot import CMD_HELP
-from userbot.helpers.functions import (
+from userbot.helpers.tweets import (
     changemymind,
     deEmojify,
     kannagen,
@@ -395,4 +393,10 @@ CmdHelp("tweet").add_command(
   "tweet", "<text>/<reply>", "Tweets in your name"
 ).add_command(
   "dani", "<text>/<reply>", "Tweet with Dani Daniels 😍🥰"
+).add_warning(
+  "Harmless Module✅"
+).add_info(
+  "Its Make Fake Tweet Image"
+).add_type(
+  "Addons"
 ).add()
