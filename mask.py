@@ -1,6 +1,3 @@
-# credits to @mrconfused and @sandy1709
-
-#    Copyright (C) 2020  sandeep.n(π.$)
 
 import base64
 import os
@@ -11,7 +8,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
 from userbot import CMD_HELP
-from userbot.helpers.functions import (
+from userbot.helpers.funct import (
     awooify,
     baguette,
     convert_toimage,
@@ -266,4 +263,10 @@ CmdHelp("mask").add_command(
   "lolice", "<reply to img/stcr", "Gives the replied img the face of Lolice Cheif"
 ).add_command(
   "awooify", "<reply to img/stcr", "Gives the replied img or stcr the face or wooify"
+).add_info(
+  "This Plugin Is For image"
+).add_warning(
+  "Harmless Module✅"
+).add_type(
+   "Addons"
 ).add()
