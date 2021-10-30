@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterDocument
 
 from userbot import bot
-from userbot.helpers.functions import deEmojify
+from userbot.helpers.funct import deEmojify
 from LEGENDBOT.utils import admin_cmd, edit_or_reply, sudo_cmd
 from userbot.cmdhelp import CmdHelp
 
@@ -121,4 +121,10 @@ CmdHelp("stickerfun").add_command(
   "stcr", "<text> / <reply>", "Sends a sticker of the given text"
 ).add_command(
   "text", "<text>", "Same as stcr but with different fonts"
+).add_info(
+  "Its Make A Stcr"
+).add_warning(
+  "Harmless Module✅"
+).add_type(
+  "Addons"
 ).add()
