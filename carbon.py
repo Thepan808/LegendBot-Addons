@@ -7,7 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 from userbot import ALIVE_NAME, CMD_HELP
-from userbot.helpers.functions import deEmojify
+from userbot.helpers.funct import deEmojify
 from LEGENDBOT.utils import admin_cmd, edit_or_reply, sudo_cmd
 from userbot.cmdhelp import CmdHelp
 
