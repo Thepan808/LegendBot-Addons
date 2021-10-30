@@ -8,7 +8,7 @@ import PIL.ImageOps
 
 from LEGENDBOT.utils import admin_cmd, sudo_cmd
 from userbot import CmdHelp, CMD_HELP, LOGS, bot as LEGENDBOT
-from userbot.helpers.functions import (
+from userbot.helpers.funct import (
     convert_toimage,
     convert_tosticker,
     flip_image,
@@ -667,4 +667,6 @@ CmdHelp("img_fun").add_command(
   "solarize", "<reply to img>", "Let the sun Burn your replied image/sticker"
 ).add_command(
   "invert", "<reply to img>", "Inverts the color of replied media file"
+).add_type(
+  "Addons"
 ).add()
