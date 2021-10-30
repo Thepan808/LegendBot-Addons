@@ -1,15 +1,10 @@
-# Credits to @spechide and his team for @TROLLVOICEBOT
-# made by @The_LegendBoy from the snippets of waifu AKA stickerizerbot....
-# kang karega kya madarchod?
-# aukaat h bsdk teri...jake baap ka loda chus ke aa....
-
 
 import re
 
 from userbot import bot
 from LEGENDBOT.utils import admin_cmd, sudo_cmd, edit_or_reply
 from userbot.cmdhelp import CmdHelp
-from userbot.helpers.functions import deEmojify
+from userbot.helpers.funct import deEmojify
 
 
 @bot.on(admin_cmd(pattern="mev(?: |$)(.*)", outgoing=True))
