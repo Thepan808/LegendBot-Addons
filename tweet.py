@@ -1,7 +1,6 @@
 from userbot import CMD_HELP
 from userbot.helpers.tweets import (
     changemymind,
-    deEmojify,
     kannagen,
     miatweet,
     moditweet,
@@ -12,6 +11,7 @@ from userbot.helpers.tweets import (
     trumptweet,
     dani,
 )
+from userbot.helpers.funct import deEmojify
 from LEGENDBOT.utils import admin_cmd, sudo_cmd, edit_or_reply
 from userbot.cmdhelp import CmdHelp
 
